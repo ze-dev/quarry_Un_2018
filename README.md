@@ -1,2 +1,2 @@
-# quarry_Unechskiy_2018
+# quarry_Un_2018
 sand-gravel mixture minig, quarry OOP computing
