@@ -18,7 +18,7 @@ class OperBase:
     ВОЗВРАЩАЕМ СТАНДАРТНЫЙ словарь baseN для работы с ним, 
     т.к. у прочитанного шелв-словаря (он внурти ф-ии) другая структура.
     
-    OperBase.show(baseN) - выводим базу Навли или другой СТАНДАРТНЫЙ словарь)'''
+    OperBase.show(baseN) - выводим 1б базу (base_nonovas) или другой СТАНДАРТНЫЙ словарь)'''
     
     @staticmethod
     def dump():                
@@ -37,7 +37,7 @@ class OperBase:
         ''' Можем вывести прочитанную  1ю базу на печать'''
         for _ in dump_base:                        
             print( _ , ' >> ', dump_base[_])
-        print('------В базе Навли Всего {} строк---'.format(len( dump_base)))
+        print('------В базе base_nonovas Всего {} строк---'.format(len( dump_base)))
         
     @staticmethod
     def find(name):
